@@ -25,7 +25,7 @@ book1.save(function(error){
         process.exit(1);
     }
     console.log("Saved!!");
-    process.emit(0);
+    process.exit(0);
 });
 
 // documento2
